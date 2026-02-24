@@ -69,7 +69,7 @@ function App() {
                 <img src="https://images.pexels.com/photos/2611465/pexels-photo-2611465.jpeg" alt="Performance e SEO" height={200} class="card-image" loading="lazy"/>
                 <h3>Performance e SEO</h3>
                 <p>
-                  Otimizaçãoavançada para garantir carregamento rápido e melhor posicionamento nos buscadores.
+                  Otimização avançada para garantir carregamento rápido e melhor posicionamento nos buscadores.
                 </p>
               </article>
               <article class="card">
@@ -108,7 +108,7 @@ function App() {
               </li>
             </ul>
           </nav>
-          <p class="copyright">© Minha Página Exemplo.Todos os direitos reservados.
+          <p class="copyright">© 2025 Minha Página Exemplo.Todos os direitos reservados.
           </p>
         </div>
       </div>
