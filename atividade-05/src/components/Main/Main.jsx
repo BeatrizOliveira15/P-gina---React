@@ -1,37 +1,9 @@
-import './App.css'
+import './Main.css'
 
-function App() {
-  return (
-    <>
-    
-    {<header class="site-header" role="banner">
-      <div class="container">
-        <div class="header-content">
-          <h1 class="site-title">Minha Página Exemplo</h1>
-          <nav class="main-nav" role="navigation" aria-label="Navegação principal">
-            <ul>
-              <li>
-                <a href="#" aria-current="page" class="active">
-                  Início
-                </a>
-              </li>
-              <li>
-                <a href="#" aria-current="page" class="active">
-                  Sobre
-                </a>
-              </li>
-              <li>
-                <a href="#" aria-current="page" class="active">
-                  Contato
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>}
-
-    {<main role="main">
+function Main(){
+    return (
+        <>
+        <main role="main">
       <section class="hero-banner" aria-labelledby="hero-title">
         <div class="container">
           <div class="hero-content">
@@ -90,37 +62,9 @@ function App() {
               </div>
           </div>
       </section>
-    </main>}
-
-    {<footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="footer-content">
-          <nav class="footer-nav" aria-label="Navegação do rodapé">
-            <ul>
-              <li>
-                <a href="#" rel="noopener" class="active">Política de Privacidade</a>
-              </li>
-              <li>
-                <a href="#" rel="noopener" class="active">Termos de Uso</a>
-              </li>
-              <li>
-                <a href="#" rel="noopener" class="active">Cookies</a>
-              </li>
-              <li>
-                <a href="#" rel="noopener" class="active">Suporte</a>
-              </li>
-            </ul>
-          </nav>
-          <p class="copyright">© 2025 Minha Página Exemplo.Todos os direitos reservados.
-          </p>
-        </div>
-      </div>
-    </footer>}
-
-    </>
-  )
+    </main>
+        </>
+    )
 }
 
-
-
-export default App
+export default Main;
